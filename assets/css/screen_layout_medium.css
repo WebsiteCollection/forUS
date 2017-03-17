@@ -1,0 +1,238 @@
+/* global */
+h1{
+	font-size: 40pt;
+}
+
+/* navigation */
+
+.toggle-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: .25s;
+    z-index: 15;
+    top: 15px;
+    left: 15px;
+    margin-bottom: 20px;
+}
+
+.toggle-button:hover {
+    cursor: pointer;
+}
+.toggle-button .menu-bar {
+    position: absolute;
+    width: 80%;
+    transition: .5s;
+}
+
+.toggle-button .menu-bar-top {
+    border: 4px solid #fff;
+    border-bottom: none;
+    top: 0;
+}
+
+.toggle-button .menu-bar-middle {
+    height: 4px;
+    background-color: #fff;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    top: 4px;
+}
+
+.toggle-button .menu-bar-bottom {
+    border: 4px solid #fff;
+    border-top: none;
+    top: 22px;
+}
+.button-open .menu-bar-top {
+    transform: rotate(45deg) translate(8px, 8px);
+    transition: .5s;
+}
+.button-open .menu-bar-middle {
+    transform: translate(230px);
+    transition: .1s ease-in;
+    opacity: 0;
+}
+.button-open .menu-bar-bottom {
+    transform: rotate(-45deg) translate(8px, -7px);
+    transition: .5s;
+}
+
+.menu-wrap {
+    background-color:#dd4949;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 210px;
+    margin-left: -210px;
+    font-weight: 700;
+    overflow: auto;
+    transition: .25s;
+    z-index: 10;
+}
+
+.menu-show {
+    margin-left: 0;
+    border-right: 4px solid white;
+}
+
+.menu {
+    position: relative;
+    top: 90px;
+}
+
+#home-txt {
+    display: block;
+}
+
+#home-img{
+    display: none;
+}
+
+.menu li {
+    padding: 11px 0;
+    list-style-type: none;
+    margin: 0 0 0 13px;/*deals with yellow hover */
+    display: block;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.menu li > a{
+    color: white;
+    font-size: 24pt;
+    position: relative;
+}
+
+.sub-menu{
+    position: static;
+    margin-left: 0;
+    padding-top: 0;
+    background-color:#dd4949;
+}
+.sub-menu li{
+    padding: 10px 0 4px 0;
+}
+.sub-menu li > a {
+    font-size: 18pt;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+ul.sub-menu{
+    padding: 0;
+}
+.menu li > a::after, .sub-menu li > a::after{
+    content: "";
+    display: block;
+    height: 0.15em;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: linear-gradient(to right, transparent 50.5%, #FFFA3B 50%);
+    transition: background-position .2s .1s ease-out;
+    background-size: 200% auto;
+}
+
+.sub-menu li > a::after{
+    width: 99%;
+    height: 0.13em;
+}
+
+.menu li > a:hover::after, .sub-menu li > a:hover::after{
+    background-position: -100% 0;
+}
+
+.menu li > a:hover{
+    color: white;
+}
+
+.menu .menu-item-has-children {
+    position: relative;
+}
+.menu .menu-item-has-children .sub-menu {
+    display: none;
+}
+
+.sub-menu{
+    font-size: 14pt;
+    color: white;
+}
+.sidebar-menu-arrow::after {
+    content: "+";
+    font-family: dins, sans-serif;
+    font-size: 15pt;
+    padding: 10px;
+    color: #FFFA3B;
+    position: relative;
+}
+.sidebar-menu-arrow:hover::after {
+    cursor: pointer;
+    color: #ccc;
+}
+.sidebar-menu-arrow:active::after {
+    top: 4px;
+}
+
+span.dropbtn::active{
+    color: black;
+    font-size: 40pt;
+    display:block;
+    opacity: 1;
+}
+/* home page */
+#slogan{
+	margin-top: 60px;
+    font-size: 36pt;
+}
+
+#about-para{
+	font-size: 12pt;
+}
+
+#logo-mobile{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 20%;
+    margin: 0 40%;
+    display: block;
+}
+
+/* Period page */
+.open-p{
+	padding: 0 8%;
+}
+
+/* President page */
+.img-container{
+	width: 32.3%;
+}
+
+.hover-text{
+	font-size: 2em;
+	opacity: 1;
+}
+/* case page */
+#sub-nav a{
+	font-size: 22pt;
+	width: 220px;
+	padding: 90px 0;
+}
+
+#marshall, #warren{
+	float: none;
+	max-width: 100%;
+}
+
+/* Quiz page */
+#container{
+	width: 70%;
+}
+
+#quiz{
+	width: 80%;
+}
