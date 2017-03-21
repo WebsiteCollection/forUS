@@ -218,7 +218,8 @@ span.dropbtn::active{
 }
 /* index */
 #blue-bg{
-    height: 500px;
+    padding-top: 250px;
+    background-color: #446cb4;
 }
 
 #slogan{
