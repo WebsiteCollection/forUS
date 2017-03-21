@@ -1,74 +1,74 @@
 (function() {
   var questions = [{
-    question: "What region was affected by the spread of Maize?",
-    choices: ["Northwest", 
-              "Northeast", 
-              "South", 
-              "Southwest"],
+    question: "What effect did Brown decision have on the Civil Rights Movement?",
+    choices: ["It upheld Plessy v. Ferguson", 
+              "It overturned Plessy v. Ferguson", 
+              "It upheld Roe v. Wade", 
+              "It overturned Dred Scott v. Sandford"],
+    correctAnswer: 1
+  }, {
+    question: "Which best describes the relationship between the US and USSR during the Cold War?",
+    choices: ["Always engaged in military and political rivalry", 
+              "Completely isolated from each other", 
+              "Maintained friendship and diplomacy", 
+              "Fluctuated between indirect conflict and mutual coexistence"],
     correctAnswer: 3
   }, {
-    question: "What was NOT a reason for the Spanish Conquest?",
-    choices: ["Gold", 
-              "Gifts", 
-              "God", 
-              "Glory"],
-    correctAnswer: 1
-  }, {
-    question: "What impact did the Spanish colonists bring to the Indians?",
-    choices: ["The spread of disease killed 90% Indians", 
-              "They brought African slaves over",
-              "They brought crops such as potatoes",
-              "No impact"],
+    question: "Which best describes President Reagan's economic policies?",
+    choices: ["Supply side economic", 
+              "The Fair Deal",
+              "Stagflation",
+              "Shrinkflation"],
     correctAnswer: 0
   }, {
-    question: "Which two European nations developed a good trading relationship with the Native Americans?",
-    choices: ["English and French",  
-              "Dutch and Spanish", 
-              "Spanish and French", 
-              "French and Dutch"],
+    question: "What caused the collapse of the USSR?",
+    choices: ["Increased political and military pressure from US",  
+              "Political reforms and rebellions", 
+              "Economic problem", 
+              "All of the Above"],
     correctAnswer: 3
   }, {
-    question: "Who was kicked out of the Puritan society and formed his or her own State?",
-    choices: ["Anne Hutchinson, who established Maryland", 
-              "Hester Prynne, who established Massachusetts", 
-              "Roger Williams, who established Rhode Island", 
-              "William Penn, who established Pennsylvania"],
+    question: "What was a key demand of the Chicano movement during the 1960s?",
+    choices: ["Restoration of all lands ceded to the US", 
+              "Increased recognition of Chicano culture", 
+              "End of social and political discrimination", 
+              "All of the above"],
+    correctAnswer: 3
+  }, {
+    question: "What led to the 9/11 attack?",
+    choices: ["Diplomatic alignments and religious conflict",
+              "Economic recession and rebellions",
+              "American political and military intervention in the Middle East",
+              "All of the above"],
     correctAnswer: 2
   }, {
-    question: "What event led by indentured servants changed the nation?",
-    choices: ["Bacon’s Rebellion",
-              "King Philip’s War",
-              "Pueblo Revolt",
-              "Shay’s Rebellion"],
+    question: "Why did President Eisenhower criticize the growth of military-industrial complex?",
+    choices: ["It gained too much political influence",
+              "It failed to defend the nation from entering WWII",
+              "It forced industries to build weapons instead of consumer goods",
+              "It laid off workers"],
     correctAnswer: 0
   }, {
-    question: "What is NOT is a way the English tried to tighten control on the colonies?",
-    choices: ["Mercantilism",
-              "Pass the Navigation Acts",
-              "Establish the Iroquois Confederacy",
-              "Establish the Dominion of New England"],
+    question: "Which best characterizes Johnson’s Great Society?",
+    choices: ["A conservative program to defeat the USSR and promote capitalism",
+              "A liberal program to reform domestic issues and increase spending",
+              "A conservative program to reduce the power of the government",
+              "A liberal program to increase military spending and beat USSR"],
+    correctAnswer: 1
+  }, {
+    question: "What was President Reagan’s approach to the Cold War?",
+    choices: ["He continued Nixon’s detente policy",
+              "He rejected detente and have more aggressive policies",
+              "He kept the US out of the Cold War",
+              "He continued to contain communism and decreased military spending"],
+    correctAnswer: 1
+  }, {
+    question: "The Tet Offensive of 1968?",
+    choices: ["Was depicted in American news media and a major victory",
+              "Was a victory for North Vietnamese forces",
+              "Led to belief that Vietnam War was unwinnable",
+              "Brought an end to the war"],
     correctAnswer: 2
-  }, {
-    question: "What is the reason for the start of Great Awakening?",
-    choices: ["To restore the declining economy after British collected taxes",
-              "To revive the current religious state because people focus too much on material wealth",
-              "To attract more religious followers in the New World",
-              "The greater production of Bibles"],
-    correctAnswer: 1
-  }, {
-    question: "Why was slavery more prevalent in the South than the North?",
-    choices: ["Southern colonies relied more on labor for crops",
-              "The religious North didn’t want slaves",
-              "Slaves died in colder climates",
-              "Slaves could performed better on farmland"],
-    correctAnswer: 0
-  }, {
-    question: "Which best describes how Britain ruled the colonies prior to mid-1700s?",
-    choices: ["Colonies were neglected but praised",
-              "Rules were rarely enforced so the colonies benefitted from it",
-              "Isolated the colonies from each other",
-              "Stopped trading with the colonies"],
-    correctAnswer: 1
   }];
   
   var questionCounter = 0; //Tracks question number
