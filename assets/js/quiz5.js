@@ -1,74 +1,74 @@
 (function() {
   var questions = [{
-    question: "What region was affected by the spread of Maize?",
-    choices: ["Northwest", 
-              "Northeast", 
-              "South", 
-              "Southwest"],
-    correctAnswer: 3
-  }, {
-    question: "What was NOT a reason for the Spanish Conquest?",
-    choices: ["Gold", 
-              "Gifts", 
-              "God", 
-              "Glory"],
-    correctAnswer: 1
-  }, {
-    question: "What impact did the Spanish colonists bring to the Indians?",
-    choices: ["The spread of disease killed 90% Indians", 
-              "They brought African slaves over",
-              "They brought crops such as potatoes",
-              "No impact"],
-    correctAnswer: 0
-  }, {
-    question: "Which two European nations developed a good trading relationship with the Native Americans?",
-    choices: ["English and French",  
-              "Dutch and Spanish", 
-              "Spanish and French", 
-              "French and Dutch"],
-    correctAnswer: 3
-  }, {
-    question: "Who was kicked out of the Puritan society and formed his or her own State?",
-    choices: ["Anne Hutchinson, who established Maryland", 
-              "Hester Prynne, who established Massachusetts", 
-              "Roger Williams, who established Rhode Island", 
-              "William Penn, who established Pennsylvania"],
+    question: "What impact did automobile have on the American society during the 20th century?",
+    choices: ["It caused the Great Depression as people went bankrupt", 
+              "It had little effect because Model-T was cheap and everyone can buy it", 
+              "It led to an increase in personal freedom and mobility", 
+              "It encouraged more immigrant because of better transportation"],
     correctAnswer: 2
   }, {
-    question: "What event led by indentured servants changed the nation?",
-    choices: ["Bacon’s Rebellion",
-              "King Philip’s War",
-              "Pueblo Revolt",
-              "Shay’s Rebellion"],
-    correctAnswer: 0
-  }, {
-    question: "What is NOT is a way the English tried to tighten control on the colonies?",
-    choices: ["Mercantilism",
-              "Pass the Navigation Acts",
-              "Establish the Iroquois Confederacy",
-              "Establish the Dominion of New England"],
+    question: "Why did the status of women change in the 20th century?",
+    choices: ["Women have the more jobs in the cities", 
+              "Women were paid more because men went to war", 
+              "Women gained economic and political freedom", 
+              "Women have the ability to participate in the economy"],
     correctAnswer: 2
   }, {
-    question: "What is the reason for the start of Great Awakening?",
-    choices: ["To restore the declining economy after British collected taxes",
-              "To revive the current religious state because people focus too much on material wealth",
-              "To attract more religious followers in the New World",
-              "The greater production of Bibles"],
-    correctAnswer: 1
-  }, {
-    question: "Why was slavery more prevalent in the South than the North?",
-    choices: ["Southern colonies relied more on labor for crops",
-              "The religious North didn’t want slaves",
-              "Slaves died in colder climates",
-              "Slaves could performed better on farmland"],
+    question: "What did the Progressive want to do during the 20th century?",
+    choices: ["More government regulation", 
+              "More monopolies and corporations",
+              "Nothing because laissez-faire system is good",
+              "More foreign relations and receive imports"],
     correctAnswer: 0
   }, {
-    question: "Which best describes how Britain ruled the colonies prior to mid-1700s?",
-    choices: ["Colonies were neglected but praised",
-              "Rules were rarely enforced so the colonies benefitted from it",
-              "Isolated the colonies from each other",
-              "Stopped trading with the colonies"],
+    question: "What is the main goal of John Muir and the national park system?",
+    choices: ["He advocated for money as national parks cost money",  
+              "He thought the US have beautiful scenery", 
+              "He advocated the use of more trees for building", 
+              "He wanted to preserve the environment"],
+    correctAnswer: 3
+  }, {
+    question: "How have African Americans changed after WWI?",
+    choices: ["They earned civil rights because of their contribution to the war", 
+              "Cultural rejuvenation because many moved to the North for jobs", 
+              "Many were jailed due to their opposition", 
+              "None - they made few contributions to the war"],
     correctAnswer: 1
+  }, {
+    question: "What impact did WWI have on free speech?",
+    choices: ["None - people can freely expressive their oppositions",
+              "Stimulated more debates and conflict",
+              "The Espionage and Sedition Acts were passed",
+              "People cannot have free speech at all during war times"],
+    correctAnswer: 3
+  }, {
+    question: "How did the New Deal try to end the Great Depression?",
+    choices: ["By increasing government regulations and spending",
+              "By continuing laissez-faire government",
+              "By redistributing the wealth of the monopolies",
+              "By adapting communist ideals"],
+    correctAnswer: 0
+  }, {
+    question: "What factor contributed to WWII?",
+    choices: ["Rise of fascism",
+              "Harsh punishment on Germany after WWI",
+              "Japanese imperialism",
+              "All of the above"],
+    correctAnswer: 3
+  }, {
+    question: "Why did the Senate NOT approve the League of Nations?",
+    choices: ["There will be too much work to organize it",
+              "They want to be isolated",
+              "They want domination, not collaboration",
+              "They thought the Leagues of Nation cannot solve the problem"],
+    correctAnswer: 1
+  }, {
+    question: "What factor caused and pushed for the start of the Spanish-American War?",
+    choices: ["Yellow journalism",
+              "Sinking of Maine",
+              "Cuban independence",
+              "All of the above"],
+    correctAnswer: 3
   }];
   
   var questionCounter = 0; //Tracks question number
