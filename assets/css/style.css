@@ -224,8 +224,8 @@ ul.sub-menu{
 }
 
 #about-para{
-    font-size: 13pt;
-    margin-top:40px;
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
 /* Periods styles */
