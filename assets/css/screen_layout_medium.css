@@ -202,11 +202,6 @@ span.dropbtn::active{
     display: block;
 }
 
-/* Period page */
-.open-p{
-	padding: 0 8%;
-}
-
 /* President page */
 .img-container{
 	width: 32.3%;
@@ -219,8 +214,8 @@ span.dropbtn::active{
 /* case page */
 #sub-nav a{
 	font-size: 22pt;
-	width: 220px;
-	padding: 90px 0;
+	width: 200px;
+	padding: 80px 0;
 }
 
 #marshall, #warren{

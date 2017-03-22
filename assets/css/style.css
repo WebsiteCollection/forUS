@@ -110,6 +110,10 @@ footer {
   font-size: 12pt;
 }
 
+.body-text{
+  margin:0 auto;
+  max-width: 1100px;
+}
 /* nav styles */
 .menu-wrap {
     font-family: din, sans-serif;
@@ -302,8 +306,7 @@ ul.sub-menu{
 }
 
 .open-p{
-  max-width: 980px;
-  margin: 30px auto;
+  max-width: 1100px;
 }
 /* timeline styles 
     credit: https://codyhouse.co/gem/horizontal-timeline/*/
@@ -895,16 +898,18 @@ ul.sub-menu{
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;  
+  justify-content: space-around; 
+  margin: 0 auto;
+  width: 85%;
 }
 
 #sub-nav a {
     color: #446cb4;
     text-align: center;
     text-decoration: none;
-    font-size: 30pt;
-    padding: 120px 0;
-    width: 300px;
+    font-size: 28pt;
+    padding: 100px 0;
+    width: 250px;
     background-color: white;
 }
 
@@ -948,7 +953,7 @@ ul.sub-menu{
 /* quiz page styles */
 #quiz {
     display: none;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -991,6 +996,7 @@ button {
     font-size: 20pt;
     color: #585858;
     font-weight: bold;
+    max-width: 700px;
 }
 
 .quizList {
@@ -1015,7 +1021,8 @@ button {
 }
 
 .aboutQuiz {
-	margin: 5% 15%;
+	margin:5% auto;
+  max-width: 1100px;
 }
 
 .quizQuestion {

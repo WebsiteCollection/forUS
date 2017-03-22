@@ -14,6 +14,7 @@ yellow: #FFFA3B;
 /* global */
 p{
     margin: 5% 8%;
+    font-size: 12pt;
 }
 
 h1{
@@ -223,7 +224,7 @@ span.dropbtn::active{
 }
 
 #slogan{
-    font-size: 36pt;
+    font-size: 32pt;
     top: 35%;
 }
 
@@ -240,12 +241,10 @@ span.dropbtn::active{
     margin: 10% 0;
 }
 
-/* periods */
-.open-p{
-    padding: 2% 8%;
-}
-
 /* president */
+#presGrid{
+    margin: 0 5%;
+}
 .img-container{
     width: 48%;
 }
@@ -263,7 +262,7 @@ span.dropbtn::active{
 }
 
 .hover-text{
-    font-size: 1.7em;
+    font-size: 1.5em;
     opacity: 1;
     padding: 3px 8px;
 }
