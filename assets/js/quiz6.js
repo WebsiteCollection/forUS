@@ -1,6 +1,6 @@
 (function() {
   var questions = [{
-    question: "What effect did Brown decision have on the Civil Rights Movement?",
+    question: "What effect did the Brown decision have on the Civil Rights Movement?",
     choices: ["It upheld Plessy v. Ferguson", 
               "It overturned Plessy v. Ferguson", 
               "It upheld Roe v. Wade", 
