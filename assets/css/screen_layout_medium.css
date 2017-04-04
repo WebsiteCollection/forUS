@@ -231,3 +231,7 @@ span.dropbtn::active{
 #quiz{
 	width: 80%;
 }
+
+.aboutQuiz{
+    margin: 5%;
+}
