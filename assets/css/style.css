@@ -245,6 +245,9 @@ ul.sub-menu{
     max-width: 1100px;
 }
 
+.period-content ul li ul li{
+  margin-left: -30px;
+}
 .fade0{
     position: absolute;
     opacity:1;
