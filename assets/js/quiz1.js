@@ -204,13 +204,21 @@
     var total = $('<p>',{id: 'question'});
     
     var numCorrect = 0;
+    var incorrect = 0;
+
+    total.append('Incorrect: Question ');
     for (var i = 0; i < selections.length; i++) {
       if (selections[i] === questions[i].correctAnswer) {
         numCorrect++;
+        incorrect++;
+      }
+      else {
+        incorrect++;
+        total.append(incorrect + ' ');
       }
     }
     
-    total.append('You got ' + numCorrect + ' questions out of ' +
+    total.append('<br><br>You got ' + numCorrect + ' questions out of ' +
                  questions.length + ' correct!');
     return total;
   }
