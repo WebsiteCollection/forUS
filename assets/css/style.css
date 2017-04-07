@@ -125,7 +125,7 @@ footer {
 .menu{
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 0 40px;
     overflow: hidden;
 }
 
@@ -212,7 +212,8 @@ ul.sub-menu{
     position: absolute;
     top: 35%;
     left: 0;
-    width: 77%;
+    width: 80%;
+    text-transform: capitalize;
 }
 
 #logo-mobile{
