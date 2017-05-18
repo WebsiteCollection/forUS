@@ -42,7 +42,7 @@
               "Shays' Rebellion"],
     correctAnswer: 0
   }, {
-    question: "What is NOT is a way the English tried to tighten control on the colonies?",
+    question: "What is NOT a way the English tried to tighten control on the colonies?",
     choices: ["Mercantilism",
               "Pass the Navigation Acts",
               "Establish the Iroquois Confederacy",
