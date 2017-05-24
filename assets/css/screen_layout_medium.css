@@ -6,7 +6,7 @@ h1{
 /* navigation */
 
 .toggle-button {
-    position: absolute;
+    position: fixed;
     width: 40px;
     height: 40px;
     transition: .25s;
